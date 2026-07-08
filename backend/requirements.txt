@@ -1,0 +1,21 @@
+# ReviewSense Backend — Python dependencies
+# Install with: pip install -r requirements.txt
+
+# API framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# ML — baseline model
+scikit-learn==1.5.2
+joblib==1.4.2
+
+# Data processing
+pandas==2.2.3
+
+# Transformer model
+transformers==4.46.0
+torch==2.6.0
+tokenizers==0.20.3
+
+# Utilities
+python-multipart==0.0.9

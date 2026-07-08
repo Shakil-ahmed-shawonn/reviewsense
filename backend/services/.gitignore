@@ -1,0 +1,18 @@
+# Large data files
+training/data/
+training/amazon-fine-food-reviews.zip
+training/data/database.sqlite
+training/data/Reviews.csv
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+
+# Model weights — upload separately to Hugging Face Spaces
+backend/models/*.pkl

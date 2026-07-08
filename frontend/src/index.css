@@ -1,0 +1,36 @@
+/**
+ * @file src/index.css
+ * @description Global styles — Sky Blue + White theme.
+ * Sentiment semantic colors: green=positive, red=negative, blue=neutral.
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --sky:        #2196F3;
+  --sky-deep:   #1565C0;
+  --sky-light:  #E8F4FD;
+  --positive:   #22C55E;
+  --neutral:    #2196F3;
+  --negative:   #EF4444;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #F0F7FF;
+  color: #1565C0;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Thin scrollbar */
+::-webkit-scrollbar       { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: #90CAF9; border-radius: 2px; }
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  * { animation-duration: 0.01ms !important; transition-duration: 0.01ms !important; }
+}
