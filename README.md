@@ -29,3 +29,28 @@
 git clone [https://github.com/Shakil-ahmed-shawonn/reviewsense.git](https://github.com/Shakil-ahmed-shawonn/reviewsense.git)
 cd reviewsense
 
+# Navigate to the backend directory
+cd backend
+
+# Create and activate a virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows use: venv\Scripts\activate
+
+# Install dependencies (ensure you have a requirements.txt file)
+pip install -r requirements.txt
+
+# Navigate to the frontend directory
+cd ../frontend
+
+# Install dependencies and run
+npm install
+npm start
+
+## 📊 Note on Data & Model Training
+
+Due to GitHub's file size limits, the raw datasets used to train the sentiment analysis models (e.g., `amazon-fine-food-reviews.zip`, `Reviews.csv`, `database.sqlite`) are **not** included in this repository. 
+
+To run the training scripts locally, ensure you place your dataset files inside the `training/` directory. These files are explicitly ignored by Git to keep the repository lightweight.
+
+## 📄 License
+This project is open-source and available under the [MIT License](LICENSE).
