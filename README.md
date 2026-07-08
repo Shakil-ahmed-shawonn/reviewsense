@@ -45,7 +45,7 @@ cd ../frontend
 # Install dependencies and run
 npm install
 npm start
-
+```
 ## 📊 Note on Data & Model Training
 
 Due to GitHub's file size limits, the raw datasets used to train the sentiment analysis models (e.g., `amazon-fine-food-reviews.zip`, `Reviews.csv`, `database.sqlite`) are **not** included in this repository. 
