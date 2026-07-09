@@ -9,6 +9,14 @@
 * **AI-Powered Response Generator:** Automatically drafts context-aware, personalized, and on-brand replies to user reviews in over 50 languages.
 * **Multi-Location Support:** Designed to handle review tracking for franchises or agencies managing multiple physical storefronts simultaneously.
 
+## 📸 App Showcase
+
+| | |
+|:---|:---|
+| <img src="assets/screenshots/hero.png" width="100%"> <br> **Seamless Data Upload** — Drag and drop a CSV of customer reviews. The UI automatically validates columns before analysis. | <img src="assets/screenshots/breakdown-chart.png" width="100%"> <br> **Sentiment Breakdown** — Get a clear, visual overview of overall customer sentiment (Positive, Neutral, Negative) via interactive charts. |
+| <img src="assets/screenshots/per-review-table.png" width="100%"> <br> **Granular Review Analysis** — Dive into individual reviews with AI-generated sentiment tags and precise model confidence scores. | <img src="assets/screenshots/themes.png" width="100%"> <br> **Key Theme Extraction** — Automatically group feedback into distinct themes to identify what customers praise or complain about most. |
+| <img src="assets/screenshots/baseline-results.png" width="100%"> <br> **Baseline Model** — Utilize a fast, lightweight TF-IDF & Logistic Regression pipeline for rapid sentiment classification. | <img src="assets/screenshots/transformer-results.png" width="100%"> <br> **Transformer Model** — Switch to a high-accuracy RoBERTa model fine-tuned on 124M tweets for nuanced text classification. |
+
 ## 🛠️ Tech Stack
 
 * **Frontend:** JavaScript, HTML/CSS
